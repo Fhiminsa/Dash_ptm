@@ -46,7 +46,7 @@ layout = html.Div([
         # html.Img(src=app.get_asset_url('user.png'), style={'position': 'relative', 'width': '35px', 'left':'900px', 'top':'15px'}),
         dbc.NavLink("Dashboard", href="/apps/main", id='menumain', style={'color': 'black'}),
         dbc.NavLink("Input Data", href="/apps/inputdata", id='input_data', style={'color': 'black'}),
-        dbc.NavLink("tambah data", href="/apps/tambahdata", id='tambah_data', style={'color': 'black'}),
+        # dbc.NavLink("tambah data", href="/apps/tambahdata", id='tambah_data', style={'color': 'black'}),
         # dbc.NavLink("tambah data", href="/apps/apptambah", id='app_tambah')
         # dbc.NavLink("Logout", href="/apps/login", id='login'),
         # html.H6("Logout")
