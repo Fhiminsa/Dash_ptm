@@ -1,0 +1,1211 @@
+@font-face {
+  font-family: 'Poppins'; 
+  src: url('Poppins-Light.ttf');
+}
+
+body {
+  background-color: #F0F3F3;  
+  font-family: 'Poppins', verdana, arial, sans-serif;
+  
+}
+
+.navbar{
+  /* height: 70px; */
+  box-shadow: #545353;
+}
+
+.header {
+  height: 10%;
+  width: 72.5%;
+  position: fixed;
+  margin-right: 354px;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 20px 0px;
+  z-index: 5;
+  background-color: rgb(255, 255, 255);
+  border: 0.5px solid rgb(213, 210, 210);
+}
+
+.side_bar {
+  height: 100%;
+  width: 27%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  background-color: #425C5A;
+  padding-left: 1%;
+  padding-right: 1%;
+  color:rgb(7, 7, 7);
+}
+
+.jumbotron{
+  position: relative;
+  margin-left: 23px;
+  margin-top: 95px;
+}
+
+.bg-color{
+  position: relative;
+  background-color: #425c5ada;
+  width: 910px;
+  height: 600px;
+  margin-left: 23px;
+  margin-top: -604px;
+  border-radius: 20px 20px 0 0;
+}
+
+.box1{
+  position: relative;
+  width : 910px;
+  height: 2150px;
+  background-color: #E3F2F1;
+  margin-top: -150px;
+  margin-left: 23px;
+}
+
+.logo{
+  position: relative;
+  margin-top: -2510px;
+  margin-left: 400px;
+}
+
+#ptm{
+  position: relative;
+  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-left: -100px;
+  margin-top: 20px;
+  color: white;
+}
+
+h6 {
+  position: absolute;
+  color:#545353;
+  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  margin-top: -27px;
+  margin-left: 830px;
+}
+
+h5{
+  font-size: 15px;
+  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'Poppins';
+  /* font-weight: bold; */
+}
+
+#penjelasan{
+  /* position: fixed; */
+  z-index: 4;
+  width: 200px;
+  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-left: 700px;
+  margin-top: 10px;
+}
+
+.side_section{
+  position: fixed;
+}
+
+/* P{
+  font-size: 12px;
+} */
+
+.box2{
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin-left: 45px;
+  margin-top: 80px;
+  background-color: #D6A217;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.box3{
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin-left: 265px;
+  margin-top: -100px;
+  background-color: #D6A217;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.box4{
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin-left: 487px;
+  margin-top: -100px;
+  background-color: #D6A217;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.box12{
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin-left: 710px;
+  margin-top: -100px;
+  background-color: #D6A217;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#text1{
+  position: relative;
+  margin-top: -87px;
+  margin-right: 1020PX;
+  text-align: center;
+  color: white;
+
+}
+
+#text2{
+  position: relative;
+  margin-top: -66px;
+  margin-right: 585PX;
+  text-align: center;
+  color: white;
+
+}
+
+#text3{
+  position: relative;
+  margin-top: -66px;
+  margin-right: 138PX;
+  text-align: center;
+  color: white;
+
+}
+
+#text4{
+  position: relative;
+  margin-top: -66px;
+  margin-left: 310PX;
+  text-align: center;
+  color: white;
+
+}
+
+.menu_detail{
+  position: relative;
+}
+
+#all{
+  margin-top: -20px;
+  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-left: 105px;
+  color: white;
+}
+
+#detail_bihun{
+  margin-top: -40px;
+  margin-left: 325px;
+  color: white;
+}
+
+#detail_vitarasa{
+  margin-top: -40px;
+  margin-left: 548px;
+  color: white;
+}
+
+#detail_mie{
+  margin-top: -40px;
+  margin-left: 774px;
+  color: white;
+}
+
+
+
+#yaxis-data{
+  background-color: #F0F3F3;
+}
+
+#product-brand{
+  background-color: #F0F3F3;
+}
+
+.box5{
+  position: relative;
+  width: 420px;
+  height: 80px;
+  margin-left: 45px;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.box6{
+  position: relative;
+  width: 425px;
+  height: 80px;
+  margin-left: 485px;
+  margin-top: -80px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.box7{
+  position: relative;
+  width: 865px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.box8{
+  position: relative;
+  width: 420px;
+  height: 350px;
+  margin-left: 45px;
+  margin-top: 190px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.box9{
+  position: relative;
+  width: 420px;
+  height: 350px;
+  margin-left: 486px;
+  margin-top: -170px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.box10{
+  position: relative;
+  width: 420px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: 332px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.box11{
+  position: relative;
+  width: 420px;
+  height: 500px;
+  margin-left: 486px;
+  margin-top: -40px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.box15{
+  position: relative;
+  width: 420px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: -34px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.box16{
+  position: relative;
+  width: 420px;
+  height: 500px;
+  margin-left: 486px;
+  margin-top: -500px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#tahun_penj{
+  position: relative;
+  font-family: 'Poppins';
+  margin-left: 60px;
+  margin-top: -70px;
+}
+
+#jenis_prod{
+  position: relative;
+  font-family: 'Poppins';
+  margin-left: 500px;
+  margin-top: -38px;
+}
+
+#upload{
+  position: fixed;
+  z-index: 2;
+  margin-left: 1080px;
+  margin-top: -437px;
+}
+
+#upload2{
+  position: fixed;
+  z-index: 2;
+  margin-left: 1080px;
+  margin-top: -340px;
+}
+
+#yaxis-data{
+  position: relative;
+  z-index: 2;
+  margin-top: -15px;
+  margin-left: 60px;
+  width: 390px;
+}
+
+#product-brand{
+  position: relative;
+  z-index: 2;
+  margin-top: -35px;
+  margin-left: 500px;
+  width: 390px;
+}
+
+#provinsi{
+  position: relative;
+  z-index: 2;
+  margin-top: -490px;
+  margin-left: 230px;
+  width: 200px;
+}
+
+/* ------------------------------ Line Chart ------------------------------------- */
+
+#Histogram{
+  margin-top: -470px;
+  margin-left: 50px;
+  width: 850px;
+  height: 300px;
+}
+
+#BarChart{
+  margin-top: -330px;
+  margin-left: 50px;
+  width: 400px;
+  height: 150px;
+}
+
+#DonutChart{
+  margin-top: -330px;
+  margin-left: 500px;
+  width: 400px;
+  height: 20px;
+}
+
+#BarChart2{
+  margin-top: -490px;
+  margin-left: 490px;
+  width: 400px;
+  height: 300px;
+}
+
+#Histogram2{
+  margin-top: -10px;
+  margin-left: 50px;
+  width: 400px;
+  height: 5px;
+}
+
+#Histogram3{
+  position: relative;
+  z-index: 2;
+  margin-top: 240px;
+  margin-left: 50px;
+  width: 400px;
+  height: 5px;
+}
+
+#Linechart{
+  margin-top: -460px;
+  margin-left: 500px;
+  width: 400px;
+  height: 5px;
+}
+
+
+  /* ------------------------AWAL DETAIL BIHUN----------------------------- */
+
+.box1bihun{
+  position: relative;
+  width : 910px;
+  height: 1850px;
+  background-color: #E3F2F1;
+  margin-top: -150px;
+  margin-left: 23px;
+}
+
+.logobihun{
+  position: relative;
+  margin-top: -2200px;
+  margin-left: 400px;
+}
+
+  .pilih{
+    margin-top: 40px;
+  }
+
+  .boxbihun{
+    position: relative;
+    width: 15%;
+    height: 45px;
+    margin-left: 29%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  
+  #Histogram_bihun{
+    margin-top: -494px;
+    margin-left: 50px;
+    width: 850px;
+    height: 300px;
+  }
+
+  .boxbihun2{
+    position: relative;
+    width: 865px;
+    height: 500px;
+    margin-left: 45px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  /* #select_month{
+    width: 400px;
+    margin-top: 400px;
+    margin-left: 200px;
+  } */
+
+  #BarChart_bihun{
+    margin-top: -510px;
+    margin-left: 490px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .boxbihun3{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 488px;
+    margin-top: -63px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  #bulan_penj{
+    position: relative;
+    font-family: 'Poppins';
+    margin-left: 660px;
+    margin-top: -33px;
+  }
+
+  #select_month{
+    width: 70px;
+    margin-top: -50px;
+    margin-left: 810px;
+  }
+
+  .dropdown_month{
+    position: relative;
+    z-index: 2;
+  }
+
+  #Histogram_bihun2{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 400px;
+    height: 5px;
+  }
+
+  #provinsi_bihun{
+    z-index: 2;
+    margin-top: -560px;
+    margin-left: 230px;
+    width: 200px;
+  }
+
+  
+
+  .boxbihun4{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 45px;
+    margin-top: 220px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  .boxbihun1{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 488px;
+    margin-top:-120px;
+    background-color: #425C5A;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  #PieChart{
+    margin-top: -560px;
+    margin-left: 51px;
+    width: 400px;
+    height: 100px;
+  }
+
+  #my-table{
+    z-index: 1;
+  }
+
+  #mongo-datatable{
+    position: relative;
+    margin-top: -565px;
+    margin-left: 495px;
+    width: 31%;
+  }
+  
+  .boxbihun5{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 45px;
+    margin-top:237px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  #labelbihun{
+    position: relative;
+    font-size: large;
+    margin-left: 450px;
+    margin-top: -34px;
+  }
+  /* ------------------------AKHIR DETAIL BIHUN----------------------------- */
+
+   /* ------------------------AWAL DETAIL VITARASA----------------------------- */
+  
+  .box1vit{
+    position: relative;
+    width : 910px;
+    height: 1850px;
+    background-color: #E3F2F1;
+    margin-top: -150px;
+    margin-left: 23px;
+  }
+
+  .logovit{
+    position: relative;
+    margin-top: -2200px;
+    margin-left: 400px;
+  }
+
+   .pilih{
+    margin-top: 40px;
+  }
+
+  .boxvitarasa{
+    position: relative;
+    width: 15%;
+    height: 45px;
+    margin-left: 29%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  
+  #Histogram_vitarasa{
+    margin-top: -494px;
+    margin-left: 50px;
+    width: 850px;
+    height: 300px;
+  }
+
+  .boxvitarasa2{
+    position: relative;
+    width: 865px;
+    height: 500px;
+    margin-left: 45px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  /* #select_month{
+    width: 400px;
+    margin-top: 400px;
+    margin-left: 200px;
+  } */
+
+  #BarChart_vitarasa{
+    margin-top: -510px;
+    margin-left: 490px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .boxvitarasa3{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 488px;
+    margin-top: -63px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  #bulan_penj{
+    position: relative;
+    font-family: 'Poppins';
+    margin-left: 660px;
+    margin-top: -33px;
+  }
+
+  #select_month{
+    width: 70px;
+    margin-top: -50px;
+    margin-left: 810px;
+  }
+
+  .dropdown_month{
+    position: relative;
+    z-index: 2;
+  }
+
+  #Histogram_vitarasa2{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 400px;
+    height: 5px;
+  }
+
+  #provinsi_vitarasa{
+    z-index: 2;
+    margin-top: -560px;
+    margin-left: 230px;
+    width: 200px;
+  }
+
+  
+
+  .boxvitarasa4{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 45px;
+    margin-top: 220px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  .boxvitarasa1{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 488px;
+    margin-top:-120px;
+    background-color: #425C5A;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  #PieChart_vit{
+    margin-top: -560px;
+    margin-left: 51px;
+    width: 400px;
+    height: 100px;
+  }
+
+  #my-table{
+    z-index: 1;
+  }
+
+  #datatable_vitarasa{
+    position: relative;
+    margin-top: -565px;
+    margin-left: 495px;
+    width: 31%;
+  }
+  
+  .boxvitarasa5{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 45px;
+    margin-top:237px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  #labelvitarasa{
+    position: relative;
+    font-size: large;
+    margin-left: 440px;
+    margin-top: -34px;
+  }
+  /* ------------------------AKHIR DETAIL VITARASA----------------------------- */
+
+  /* ------------------------AWAL DETAIL MIE----------------------------- */
+
+  .box1mie{
+    position: relative;
+    width : 910px;
+    height: 1850px;
+    background-color: #E3F2F1;
+    margin-top: -150px;
+    margin-left: 23px;
+  }
+
+  .logomie{
+    position: relative;
+    margin-top: -2200px;
+    margin-left: 400px;
+  }
+
+  .pilih{
+    margin-top: 40px;
+  }
+
+  .boxmie{
+    position: relative;
+    width: 15%;
+    height: 45px;
+    margin-left: 29%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  
+  #Histogram_mie{
+    margin-top: -494px;
+    margin-left: 50px;
+    width: 850px;
+    height: 300px;
+  }
+
+  .boxmie2{
+    position: relative;
+    width: 865px;
+    height: 500px;
+    margin-left: 45px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  /* #select_month{
+    width: 400px;
+    margin-top: 400px;
+    margin-left: 200px;
+  } */
+
+  #BarChart_mie{
+    margin-top: -510px;
+    margin-left: 490px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .boxmie3{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 488px;
+    margin-top: -63px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  #bulan_penj{
+    position: relative;
+    font-family: 'Poppins';
+    margin-left: 660px;
+    margin-top: -33px;
+  }
+
+  #select_month{
+    width: 70px;
+    margin-top: -50px;
+    margin-left: 810px;
+  }
+
+  .dropdown_month{
+    position: relative;
+    z-index: 2;
+  }
+
+  #Histogram_mie2{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 400px;
+    height: 5px;
+  }
+
+  #provinsi_mie{
+    z-index: 2;
+    margin-top: -560px;
+    margin-left: 230px;
+    width: 200px;
+  }
+
+  
+
+  .boxmie4{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 45px;
+    margin-top: 220px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  .boxmie1{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 488px;
+    margin-top:-120px;
+    background-color: #425C5A;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  #PieChart_mie{
+    margin-top: -560px;
+    margin-left: 51px;
+    width: 400px;
+    height: 100px;
+  }
+
+  #my-table{
+    z-index: 1;
+  }
+
+  #datatable_mie{
+    position: relative;
+    margin-top: -565px;
+    margin-left: 495px;
+    width: 31%;
+  }
+  
+  .boxmie5{
+    position: relative;
+    width: 420px;
+    height: 580px;
+    margin-left: 45px;
+    margin-top:237px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  #labelmie{
+    position: relative;
+    font-size: large;
+    margin-left: 426px;
+    margin-top: -34px;
+  }
+  /* ------------------------AKHIR DETAIL MIE----------------------------- */
+
+  /* ----------------------------LOGIN----------------------------- */
+
+.loginpage{
+  position: relative;
+  width : 700px;
+  height: 696px;
+  background-color: #1c4f4c;
+}
+
+.headerlogin {
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  margin-right: 354px;
+  top: 0;
+  left: 0;
+  /* border-radius: 0 0 20px 0px; */
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border: 0.5px solid rgb(213, 210, 210);
+}
+
+#loginlabel {
+  position: relative;
+  color: #545353;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-left: 920px;
+  margin-top: -500px;
+}
+
+#login{
+  position: relative;
+  margin-left: 820px;
+  margin-top: -40px;
+}
+
+#hrlogin {
+  position: relative;
+  z-index: 2;
+  width: 450px;
+  margin-left: 790px;
+  color: rgb(115, 112, 112);
+}
+
+#inputuser{
+  position: relative;
+  z-index: 2;
+  width: 400px;
+  margin-left: 815px;
+  border-radius: 20px;
+}
+
+#username{
+  position: relative;
+  z-index: 2;
+  margin-top: 30px;
+  margin-left: 810px;
+  font-size: 17px;
+}
+
+#inputpass{
+  position: relative;
+  z-index: 2;
+  width: 400px;
+  margin-left: 815px;
+  border-radius: 20px;
+}
+
+#password{
+  position: relative;
+  z-index: 2;
+  margin-top: 10px;
+  margin-left: 810px;
+  font-size: 17px;
+}
+
+#buttonlogin{
+  width: 400px;
+  margin-top: 15px;
+  margin-left: 815px;
+  border-radius: 20px;
+}
+  /* -----------------------AKHIR LOGIN-------------------------- */
+
+  /* ------------------------AWAL PO----------------------------- */
+  .boxpo{
+    position: relative;
+    width : 910px;
+    height: 2190px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 23px;
+    border-radius: 20px;
+  }
+
+  #menumain{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  #input_data{
+    position: relative;
+    margin-left: 130px;
+    margin-top: -40px;
+  }
+
+  #tambah_data{
+    position: relative;
+    margin-left: 235px;
+    margin-top: -40px;
+  }
+
+  #labeltambah{
+    margin-top: -2150px;
+  }
+
+
+
+  #hrpo{
+    width: 800px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+
+  .inputpo{
+    position: relative;
+    z-index: 2;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 800px;
+  }
+
+  .buttonpo{
+    position: relative;
+    z-index: 2;
+    margin-top: 40px;
+    margin-left: 380px;
+  }
+  /* ------------------------AKHIR PO----------------------------- */
+
+  /* ------------------------AWAL DATA PO/INPUT DATA----------------------------- */
+  .boxinput{
+    position: relative;
+    width : 910px;
+    height: 800px;
+    background-color: white;
+    margin-top: 95px;
+    margin-left: 23px;
+    border-radius: 20px;
+  }
+
+  .boxtabelinput{
+    position: relative;
+    width: 840px;
+    height: 580px;
+    margin-left: 57px;
+    margin-top: 30px;
+    background-color: #425C5A;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  #datapo{
+    position: relative;
+    margin-left: 250px;
+    margin-top: -40px;
+  }
+
+  #datatable_inputdata{
+    position: relative;
+    z-index: 2;
+    margin-top: -550px;
+    margin-left: 85px;
+    width: 60%;
+    /* height: 900px; */
+  }
+
+  #adding-rows-btn{
+    position: relative;
+  }
+
+  #save-it{
+    position: relative;
+  }
+
+  .buttoninput{
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  #hrinput{
+    width: 800px;
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+
+  h2 {
+    position: relative;
+    margin-left: 68px;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: large;
+    /* z-index: 1; */
+    margin-top: -760px;
+    color: rgb(52, 47, 47);
+  }  
+
+  #uploadinput{
+    position: fixed;
+    z-index: 2;
+    margin-left: 1080px;
+    margin-top: 50px;
+  }
+
+  #btn{
+    margin-left: 430px;
+    color: white;
+  }
+ 
+  /* ------------------------AKHIR DATA PO/INPUT DATA----------------------------- */
+  .boxpo{
+    position: relative;
+    width : 910px;
+    height: 2190px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 23px;
+    border-radius: 20px;
+  }
+
+  #hrpo{
+    width: 800px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+
+  /* ------------------------AWAL UPLOAD FILE----------------------------- */
+  .boxup{
+    position: relative;
+    width : 910px;
+    height: 2190px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 23px;
+    border-radius: 20px;
+  }
+
+  #hrup{
+    width: 800px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+
+  /* #upload-data{
+    position: relative;
+    z-index: 2;
+    width : 50%;
+    height : 60px;
+    line-height : 60px;
+    border-width : 1px;
+    border-style: dashed;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 40PX;
+  } */
+ 
+
+
+  /* ------------------------AKHIR UPLOAD FILE----------------------------- */
+
+  /* ------------------------AWAL DETAIL----------------------------- */
+
+
+
+
+
+
+
+
+
+  /* ------------------------AKHIR DETAIL----------------------------- */
+
+/* Scrollbars */
+*::-webkit-scrollbar {
+  width: 12px;               
+}
+*::-webkit-scrollbar-track {
+  background: #EDEFEB;        
+}
+*::-webkit-scrollbar-thumb {
+  background-color:#ebb36abf;    
+  border-radius: 20px;      
+  border: 3px solid #EDEFEB;  
+}
